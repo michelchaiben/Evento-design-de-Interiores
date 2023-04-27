@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inDecor</title><!--nome da pagina-->
+
+    <link rel="stylesheet" href="css/style.css"/><!--Linkagem css-->
+
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+    
+    <!--icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header id="event-description"><!--Cabecalho-->
+        <div id="disclaimer"><!--aviso do evento-->
+        <h2>Indecor</h2>
+        <p class="about-event">Um evento para revolucionar sua criatividade</p><!--explicação evento-->
+        <p>Data do evento</p>
+
+        <p class="event-date">Sexta feira, 24 de Março, apartir das 14h</p><!--data evento-->
+        </div>
+
+
+        <div id="subscription-form"><!--formulario pra evento-->
+        <p>Preencha o formulario pra receber detalhes do evento</p>
+        <form><!--input pra usuario preencher-->
+            <div class="form-group">
+                <label for="name">Nome</label> <!--input para nome-->
+                <input type="text" name="name" placeholder="Digite seu nome" />
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label> <!--input para email-->
+                <input type="email" name="email" placeholder="Digite seu e-mail principal" />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefone</label> <!--input para whatsapp-->
+                <input type="text" name="phone" placeholder="numero de whatsapp">
+            </div>
+
+            <div class="form-group">
+                <label for="interesse">principal interesse</label> <!--input forma de escolha para usuario-->
+                <select name="interest">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="apartament">Apartamentos</option>
+                    <option value="house">Casas</option>
+                    <option value="Gardens">Jardins</option>
+                    <option value="other">outros</option>
+                </select>
+            </div>
+
+            <input type="submit" class="btn" value="Quero me inscrever" >
+        </form>
+
+    </header>
+    <section id="key-benefits">
+        <h2>Oque você vai aprender:</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p>
+                    Alguma coisa legal, que vai fazer diferença na vida do 
+                    participante.
+                </p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p>
+                    Alguma coisa legal, que vai fazer diferença na vida do 
+                    participante.
+                </p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p>
+                    Alguma coisa legal, que vai fazer diferença na vida do 
+                    participante.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="address-details">
+                <p>Rua do Evento,1378</p>
+                <P>Bairro XXXXXX</P>
+                <p>Abertura as 14h</p>
+            </div>
+        </div>
+        <div id="about-location">
+            <h3>Local de destaque</h3>
+            <p>O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde teremos exemplos varios ambientes tanto internos quanto externos</p>
+        </div>
+    </section>
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/sala-moderna iluminada.jpg" alt="sala decorada">
+            <div class="detail-description">
+                <h3>Conheça os ambietes que voce vai aprender a decorar</h3>
+            </div>
+        </div>
+
+        <div class="detail" id="detail-2">
+            <div class="detail-description">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Posicionamento</li>
+                    <li>Aproveitamento do espaço</li>
+                    <li>Combinação de cores</li>
+                    <li>Organização</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+            <img src="img/sala decorada madeira.jpg" alt="sala parede madeira">
+        </div>
+
+        <div class="detail" id="detail-3">
+            <img src="img/decor-interiores.jpg" alt="mesa moderna ambiente iluminado">
+            <div class="detail-description">
+                <h3>Objetos</h3>
+                <ul>
+                    <li>Cadeiras</li>
+                    <li>Mesas</li>
+                    <li>Espelhos</li>
+                    <li>Plantas</li>
+                    <li>Cortinas</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="cta">
+        <h3>Gostou? Então se inscreva:</h3>
+        <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+        <h3>Indecor</h3>
+        <p>A evolução da decoração de Interiores</p>
+        <p><span>Entre em contato:</span> oi@indecor</p>
+        <p><span>Ou pelo telefone:</span> (55)9999-33333</p>
+    </footer>
+</body>
+</html>
